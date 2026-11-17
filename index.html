@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo de Servicios Legales y Financieros | AEQUITAS JURÍDICA</title>
+<meta name="description" content="Catálogo de servicios de AEQUITAS JURÍDICA: diagnóstico crediticio, defensa legal en Habeas Data y negociación de pasivos. Bogotá, D.C. Vigencia 2026 - 2027.">
+
+<!-- ======================================================================
+     AEQUITAS JURÍDICA · CATÁLOGO DIGITAL 
+     ----------------------------------------------------------------------
+     CÓMO USAR ESTE ARCHIVO
+     1. Guárdelo como  Catalogo_AEQUITAS_JURIDICA.html
+     ESTRUCTURA DEL PROYECTO
+        index.html              → contenido (8 páginas)
+        assets/css/styles.css   → estilos
+        assets/js/main.js       → lógica (botón Guardar como PDF)
+        assets/img/*.jpg        → imágenes
+     2. IMÁGENES: están en assets/img/. Cada <img> lleva data-archivo="nombre.jpg"
+        para ubicarla. Para reemplazar una, sustituya el archivo en assets/img/
+        conservando el nombre, o cambie su src.
+          · Fondo de página completa (class="bg"): págs. 3, 7 y 8
+          · Franja superior a sangre (class="band"): págs. 2, 4, 5 y 6
+          · Foto de portada (class="cover-photo"): pág. 1
+        El encuadre de cada foto se ajusta con style="object-position:X% Y%".
+     3. Botón "Guardar como PDF": abre el diálogo de impresión. Elija
+        "Guardar como PDF", márgenes "Ninguno" y active "Gráficos de fondo".
+
+     FORMATO DEL PDF
+     Cada <section class="page"> es una página vertical de 165 × 330 mm
+     (proporción 1:2, pensada para leerse en teléfono). Para cambiar el
+     tamaño, edite las variables --pdf-w y --pdf-h y la regla @page.
+     ====================================================================== -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+<!-- Escudo vectorial de reserva (se reutiliza en el panel de marca de la pág. 2) -->
+<div class="defs" aria-hidden="true"><svg id="escudo" viewBox="0 0 120 140">
+        <path d="M60 5 108 21v47c0 32-22 54-48 66C34 122 12 100 12 68V21Z" fill="#112240" stroke="#C5A059" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M60 13 101 26.500v41.500c0 27-18.500 46.500-41 57.500C37.500 114.500 19 95 19 68V26.500Z" fill="none" stroke="#C5A059" stroke-opacity=".35" stroke-width="1"/>
+        <g fill="#D4AF37" stroke="none">
+          <circle cx="60" cy="27" r="3.200"/>
+          <rect x="58.600" y="29" width="2.800" height="10"/>
+          <rect x="51" y="38" width="18" height="3" rx="1.500"/>
+          <path d="M57.600 41h4.800v58L60 108l-2.400-9Z"/>
+        </g>
+        <g fill="none" stroke="#D4AF37" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M32 55q28-8 56 0"/>
+          <path d="M32 55 24 76M32 55l8 21M88 55 80 76M88 55l8 21"/>
+        </g>
+        <path d="M21 76h22a11 9 0 0 1-22 0ZM77 76h22a11 9 0 0 1-22 0Z" fill="#D4AF37"/>
+      </svg></div>
+
+<main class="catalog" id="catalogo">
+
+  <!-- ============================================================
+       PÁGINA 1 · PORTADA
+       ============================================================ -->
+  <section class="page page--dark cover" id="portada" aria-label="Portada">
+    <h1 class="vh">AEQUITAS JURÍDICA</h1>
+    <figure class="cover-photo">
+      <img data-archivo="portada-hero.jpg" width="1280" height="1118" src="assets/img/portada-hero.jpg" alt="Cliente sonriendo aliviado mientras revisa su celular y toma café">
+    </figure>
+
+    <div class="rule" aria-hidden="true"></div>
+    <p class="slogan">“Tu información, tu tranquilidad, nuestra misión”</p>
+    <p class="tag">Catálogo de Servicios Legales y Financieros</p>
+
+    <p class="cover-foot">Bogotá, D.C. | Vigencia: 2026 - 2027</p>
+  </section>
+
+  <!-- ============================================================
+       PÁGINA 2 · PRESENTACIÓN DEL NEGOCIO
+       (Rúbrica: máximo 80 palabras. El texto tiene 70. NO modificar.)
+       ============================================================ -->
+  <section class="page" id="quienes-somos" aria-labelledby="t-quienes">
+    <figure class="band band--title">
+      <div class="band-frame">
+        <img data-archivo="equipo-legal.jpg" width="1280" height="853" src="assets/img/equipo-legal.jpg" alt="Equipo legal de AEQUITAS JURÍDICA analizando un caso de Habeas Data">
+        <div class="band-cap">
+          <p class="eyebrow">Presentación del negocio</p>
+          <h2 class="title" id="t-quienes">¿Quiénes somos?</h2>
+        </div>
+      </div>
+    </figure>
+
+    <p class="about-text" id="texto-quienes">En AEQUITAS JURÍDICA acompañamos a personas y microempresarios asfixiados por deudas y reportes negativos, ayudándoles a recuperar su vida crediticia. Mediante un enfoque legal técnico en Habeas Data y protección al consumidor, eliminamos reportes irregulares y saneamos pasivos. Nuestra diferencia radica en un modelo de transparencia radical: honorarios atados al éxito de la gestión, garantizando resultados verificables y un acompañamiento empático hasta devolverles su libertad financiera.</p>
+
+    <!-- Panel de marca: visible solo en el PDF para completar la página -->
+    <div class="brand-fill" aria-hidden="true">
+      <svg viewBox="0 0 120 140"><use href="#escudo"/></svg>
+      <p>“Tu información, tu tranquilidad, nuestra misión”</p>
+      <small>AEQUITAS JURÍDICA</small>
+    </div>
+
+    <footer class="page-foot"><b>Aequitas Jurídica</b><span>02 / 08</span></footer>
+  </section>
+
+  <!-- ============================================================
+       PÁGINA 3 · CATEGORÍAS DE LA OFERTA
+       ============================================================ -->
+  <section class="page page--bg" id="soluciones" aria-labelledby="t-soluciones">
+    <!-- Fondo de página completa (la foto va detrás de un velo azul para que el texto se lea) -->
+    <img class="bg" data-archivo="categorias-portafolio.jpg" width="1120" height="1400" style="object-position:58% 50%" src="assets/img/categorias-portafolio.jpg" alt="Portafolio de cuero azul sobre un escritorio; un bolígrafo dorado señala tres líneas de un documento">
+    <p class="eyebrow">Categorías de la oferta</p>
+    <h2 class="title" id="t-soluciones">Nuestras Soluciones</h2>
+    <p class="lead">Tres líneas de servicio progresivas. Toque una categoría para ver su ficha completa.</p>
+
+    <nav class="cats" aria-label="Categorías de servicios">
+      <a class="cat" href="#servicio-1">
+        <span class="cat-num" aria-hidden="true">1</span>
+        <span>
+          <h3>Diagnóstico e Inteligencia Financiera</h3>
+          <p>Auditoría inicial en centrales de riesgo.</p>
+        </span>
+        <span class="cat-go" aria-hidden="true">→</span>
+      </a>
+      <a class="cat cat--star" href="#servicio-2">
+        <span class="cat-num" aria-hidden="true">2</span>
+        <span>
+          <span class="mini-star">Servicio Estrella</span>
+          <h3>Defensa Legal (Habeas Data)</h3>
+          <p>Eliminación de reportes negativos y protección al consumidor.</p>
+        </span>
+        <span class="cat-go" aria-hidden="true">→</span>
+      </a>
+      <a class="cat" href="#servicio-3">
+        <span class="cat-num" aria-hidden="true">3</span>
+        <span>
+          <h3>Estabilización y Renegociación</h3>
+          <p>Saneamiento de pasivos y acuerdos con quitas.</p>
+        </span>
+        <span class="cat-go" aria-hidden="true">→</span>
+      </a>
+    </nav>
+
+    <p class="cats-note">Cada ficha presenta la misma información y en el mismo orden: nombre, necesidad, alcance, proceso, entregables y tarifa.</p>
+
+    <div class="bg-reveal" aria-hidden="true"></div>
+    <footer class="page-foot"><b>Aequitas Jurídica</b><span>03 / 08</span></footer>
+  </section>
+
+  <!-- ============================================================
+       PÁGINA 4 · FICHA DE SERVICIO 1  (Ruta B · Servicios)
+       ============================================================ -->
+  <section class="page" id="servicio-1" aria-labelledby="t-s1">
+    <figure class="band">
+      <div class="band-frame">
+        <img data-archivo="diagnostico-puntaje.jpg" width="1120" height="1400" style="object-position:50% 30%" src="assets/img/diagnostico-puntaje.jpg" alt="Persona revisando en un portátil un medidor de puntaje crediticio y gráficos financieros">
+      </div>
+    </figure>
+    <div class="ficha-head">
+      <p class="eyebrow">Categoría 1 · Diagnóstico e Inteligencia Financiera</p>
+    </div>
+
+    <div class="ficha">
+      <div class="campo campo--nombre">
+        <div class="campo-label"><i>1</i>Nombre</div>
+        <h2 class="title" id="t-s1">Diagnóstico Integral de Historial Crediticio</h2>
+      </div>
+      <div class="campo">
+        <div class="campo-label"><i>2</i>Necesidad</div>
+        <p>Identificación exacta del estado de morosidad, huellas de consulta y alertas en centrales de riesgo.</p>
+      </div>
+      <div class="campo">
+        <div class="campo-label"><i>3</i>Alcance</div>
+        <ul class="alcance">
+          <li class="si"><span class="k">Incluye</span><span>Revisión detallada en las plataformas de Datacrédito y TransUnion.</span></li>
+          <li class="no"><span class="k">No incluye</span><span>La radicación de recursos legales.</span></li>
+        </ul>
+      </div>
+      <div class="campo">
+        <div class="campo-label"><i>4</i>Proceso</div>
+        <ol class="pasos">
+          <li><span>Autorización de consulta</span></li>
+          <li><span>Análisis jurídico por parte de nuestros abogados</span></li>
+          <li><span>Entrega de concepto técnico</span></li>
+        </ol>
+      </div>
+      <div class="campo">
+        <div class="campo-label"><i>5</i>Entregables</div>
+        <p>Informe en formato PDF con la viabilidad jurídica para iniciar un proceso de eliminación.</p>
+      </div>
+      <div class="campo campo--tarifa">
+        <div class="campo-label"><i>6</i>Tarifa</div>
+        <p>Análisis inicial 100% Gratuito (Sujeto a agendamiento).</p>
+      </div>
+    </div>
+
+    <footer class="page-foot"><b>Aequitas Jurídica</b><span>04 / 08</span></footer>
+  </section>
+
+  <!-- ============================================================
+       PÁGINA 5 · FICHA DE SERVICIO 2  (DESTACADA · SERVICIO ESTRELLA)
+       ============================================================ -->
+  <section class="page page--star" id="servicio-2" aria-labelledby="t-s2">
+    <figure class="band band--whole">
+      <div class="band-frame">
+        <img data-archivo="midatacredito-ui.jpg" width="1280" height="853" src="assets/img/midatacredito-ui.jpg" alt="Ilustración del servicio de Habeas Data con la interfaz de MiDatacrédito">
+      </div>
+      <!-- NOTA LEGAL OBLIGATORIA: no eliminar -->
+      <figcaption class="legal-note">Imagen ilustrativa de la plataforma <a href="https://www.midatacredito.com" target="_blank" rel="noopener">www.midatacredito.com</a>. No corresponde a una captura oficial ni garantiza la aprobación de la solicitud.</figcaption>
+    </figure>
+    <div class="ficha-head">
+      <p class="eyebrow">Categoría 2 · Defensa Legal (Habeas Data)</p>
+      <span class="badge-star">★ Servicio Estrella</span>
+    </div>
+
+    <div class="ficha">
+      <div class="campo campo--nombre">
+        <div class="campo-label"><i>1</i>Nombre</div>
+        <h2 class="title" id="t-s2">Eliminación Legal de Reportes Negativos (Habeas Data)</h2>
+      </div>
+      <div class="campo">
+        <div class="campo-label"><i>2</i>Necesidad</div>
+        <p>Restauración de la vida crediticia por bloqueos derivados de reportes irregulares, extemporáneos o sin debida notificación.</p>
+      </div>
+      <div class="campo">
+        <div class="campo-label"><i>3</i>Alcance</div>
+        <ul class="alcance">
+          <li class="si"><span class="k">Incluye</span><span>Redacción y radicación de Derechos de Petición/Tutelas ante las fuentes de información y escalamiento a la Superintendencia.</span></li>
+          <li class="no"><span class="k">No incluye</span><span>El pago del saldo adeudado a la entidad financiera.</span></li>
+        </ul>
+      </div>
+      <div class="campo">
+        <div class="campo-label"><i>4</i>Proceso</div>
+        <ol class="pasos">
+          <li><span>Firma de poder</span></li>
+          <li><span>Radicación de recurso</span></li>
+          <li><span>Seguimiento estricto de términos de ley (15 días hábiles)</span></li>
+          <li><span>Notificación del fallo</span></li>
+        </ol>
+      </div>
+      <div class="campo">
+        <div class="campo-label"><i>5</i>Entregables</div>
+        <p>Copia del radicado oficial de inicio y documento final de resolución emitido por la entidad o el ente de control.</p>
+      </div>
+      <div class="campo campo--tarifa">
+        <div class="campo-label"><i>6</i>Tarifa</div>
+        <p>Honorarios Mixtos (Tarifa administrativa inicial + Comisión de éxito porcentual sujeta a eliminación).</p>
+      </div>
+    </div>
+
+    <footer class="page-foot"><b>Aequitas Jurídica</b><span>05 / 08</span></footer>
+  </section>
+
+  <!-- ============================================================
+       PÁGINA 6 · FICHA DE SERVICIO 3
+       ============================================================ -->
+  <section class="page" id="servicio-3" aria-labelledby="t-s3">
+    <figure class="band band--fill">
+      <div class="band-frame">
+        <img data-archivo="entrega-llaves.jpg" width="1051" height="1280" style="object-position:50% 3%" src="assets/img/entrega-llaves.jpg" alt="Entrega de llaves que simboliza el acceso a créditos y vivienda">
+      </div>
+    </figure>
+    <div class="ficha-head">
+      <p class="eyebrow">Categoría 3 · Estabilización y Renegociación</p>
+    </div>
+
+    <div class="ficha">
+      <div class="campo campo--nombre">
+        <div class="campo-label"><i>1</i>Nombre</div>
+        <h2 class="title" id="t-s3">Negociación Directa de Pasivos</h2>
+      </div>
+      <div class="campo">
+        <div class="campo-label"><i>2</i>Necesidad</div>
+        <p>Saneamiento de obligaciones en mora para evitar embargos o recuperar liquidez.</p>
+      </div>
+      <div class="campo">
+        <div class="campo-label"><i>3</i>Alcance</div>
+        <ul class="alcance">
+          <li class="si"><span class="k">Incluye</span><span>Intermediación legal ante bancos o casas de cobranza para lograr acuerdos de pago con quitas (descuentos) de capital e intereses.</span></li>
+          <li class="no"><span class="k">No incluye</span><span>La provisión de fondos para el pago del acuerdo.</span></li>
+        </ul>
+      </div>
+      <div class="campo">
+        <div class="campo-label"><i>4</i>Proceso</div>
+        <ol class="pasos">
+          <li><span>Análisis de capacidad de pago</span></li>
+          <li><span>Presentación de oferta a la entidad</span></li>
+          <li><span>Negociación de descuento</span></li>
+          <li><span>Formalización</span></li>
+        </ol>
+      </div>
+      <div class="campo">
+        <div class="campo-label"><i>5</i>Entregables</div>
+        <p>Acuerdo de transacción firmado y Paz y Salvo oficial tras el pago.</p>
+      </div>
+      <div class="campo campo--tarifa">
+        <div class="campo-label"><i>6</i>Tarifa</div>
+        <p>Porcentaje (%) liquidado única y exclusivamente sobre el ahorro total logrado para el cliente.</p>
+      </div>
+    </div>
+
+    <footer class="page-foot"><b>Aequitas Jurídica</b><span>06 / 08</span></footer>
+  </section>
+
+  <!-- ============================================================
+       PÁGINA 7 · PRECIOS, TARIFAS Y CONDICIONES
+       ============================================================ -->
+  <section class="page page--bg" id="tarifas" aria-labelledby="t-tarifas">
+    <!-- Fondo de página completa (la foto va detrás de un velo azul para que el texto se lea) -->
+    <img class="bg" data-archivo="acuerdo-transparente.jpg" width="1120" height="1400" style="object-position:50% 50%" src="assets/img/acuerdo-transparente.jpg" alt="Apretón de manos entre un abogado y una clienta junto a un contrato y un bolígrafo">
+    <p class="eyebrow">Precios, tarifas y condiciones</p>
+    <h2 class="title" id="t-tarifas">Transparencia en nuestra facturación</h2>
+    <p class="lead"><strong>Esquema de Honorarios Mixtos (Habeas Data):</strong> todos nuestros procesos de Habeas Data se dividen en dos pagos.</p>
+
+    <div class="fees">
+      <article class="fee">
+        <small>Pago 1 · Al iniciar</small>
+        <h3>Gastos Administrativos</h3>
+        <p class="amount">$150.000 <em>COP · valor fijo inicial</em></p>
+        <p>Cubre papelería, poderes, notificaciones y honorarios de radicación.</p>
+      </article>
+      <article class="fee fee--dark">
+        <small>Pago 2 · Solo si hay resultado</small>
+        <h3>Comisión de Éxito</h3>
+        <p class="amount"><em>desde</em> $300.000 <em>COP</em></p>
+        <p>Según cuantía y complejidad del caso. Pagadero únicamente si se logra la eliminación efectiva del reporte negativo.</p>
+      </article>
+    </div>
+
+    <h3 class="subtitle">Condiciones relevantes</h3>
+    <ul class="conds">
+      <li>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <span><b>Tiempos legales:</b> sujeto a los tiempos legales de respuesta (Ley 1266 de 2008 y Ley 2157 de 2021); no se garantizan resultados inmediatos.</span>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>
+        <span><b>Vigencia de tarifas:</b> Año 2026.</span>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10.500h18M7 15h4"/></svg>
+        <span><b>Medios de pago:</b> transferencia bancaria (Bancolombia, Davivienda, Nequi) y tarjeta de crédito mediante link de recaudo seguro.</span>
+      </li>
+    </ul>
+
+    <div class="bg-reveal bg-reveal--sm" aria-hidden="true"></div>
+    <footer class="page-foot"><b>Aequitas Jurídica</b><span>07 / 08</span></footer>
+  </section>
+
+  <!-- ============================================================
+       PÁGINA 8 · PROCESO Y CONTACTO (CIERRE)
+       ============================================================ -->
+  <section class="page page--bg" id="contacto" aria-labelledby="t-contacto">
+    <!-- Fondo de página completa (la foto va detrás de un velo azul para que el texto se lea) -->
+    <img class="bg" data-archivo="contacto-whatsapp.jpg" width="1120" height="1400" style="object-position:72% 50%" src="assets/img/contacto-whatsapp.jpg" alt="Mano sosteniendo un celular con el ícono de WhatsApp; oficina desenfocada al fondo">
+    <p class="eyebrow">Proceso y contacto</p>
+    <h2 class="title" id="t-contacto">Recupere su tranquilidad hoy mismo</h2>
+    <p class="lead">Iniciar su proceso con AEQUITAS JURÍDICA es seguro y ágil:</p>
+
+    <ol class="steps">
+      <li class="step">
+        <span class="step-n" aria-hidden="true">1</span>
+        <div><h3>Solicite su diagnóstico</h3><p>Escríbanos a nuestro WhatsApp para realizar la consulta inicial sin costo.</p></div>
+      </li>
+      <li class="step">
+        <span class="step-n" aria-hidden="true">2</span>
+        <div><h3>Reciba su propuesta</h3><p>Tras conocer su caso, le enviaremos la hoja de ruta legal y el contrato de prestación de servicios.</p></div>
+      </li>
+      <li class="step">
+        <span class="step-n" aria-hidden="true">3</span>
+        <div><h3>Firme y descanse</h3><p>Procederemos de inmediato y le notificaremos cada avance del trámite.</p></div>
+      </li>
+    </ol>
+
+    <div class="cta">
+      <p>“Tu información, tu tranquilidad, nuestra misión”</p>
+      <!-- CTA principal. El texto del mensaje va codificado para URL (Í = %C3%8D, ó = %C3%B3). -->
+      <a class="btn" id="btn-whatsapp" target="_blank" rel="noopener"
+         href="https://wa.me/573142054779?text=Hola%20AEQUITAS%20JUR%C3%8DDICA,%20deseo%20solicitar%20mi%20diagn%C3%B3stico%20gratuito">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.600 15.100L2 22l5-1.300A10 10 0 1 0 12 2Zm0 1.800a8.200 8.200 0 1 1-4.200 15.250l-.300-.180-2.950.770.790-2.870-.200-.300A8.200 8.200 0 0 1 12 3.800Zm-3.300 3.900c-.200 0-.500.070-.750.350-.260.280-1 .970-1 2.370s1.020 2.750 1.160 2.940c.140.190 2 3.060 4.850 4.290 2.370 1.020 2.850.820 3.370.770.510-.050 1.660-.680 1.890-1.330.230-.660.230-1.220.160-1.340-.070-.120-.260-.190-.540-.330-.280-.140-1.660-.820-1.920-.910-.260-.100-.450-.140-.630.140-.190.280-.720.910-.890 1.100-.160.190-.330.210-.610.070-.280-.140-1.180-.440-2.250-1.390-.830-.740-1.390-1.660-1.560-1.940-.160-.280-.020-.430.120-.570.130-.130.280-.330.420-.490.140-.160.190-.280.280-.470.090-.190.050-.350-.020-.490-.070-.140-.620-1.530-.870-2.090-.220-.510-.450-.520-.650-.530h-.560Z"/></svg>
+        <span>Iniciar Diagnóstico por WhatsApp</span>
+      </a>
+    </div>
+
+    <ul class="contact">
+      <li>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg>
+        <div><small>WhatsApp Business</small><a href="https://wa.me/573142054779">+57 314 205 4779</a></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.500 7 8.500 6 8.500-6"/></svg>
+        <div><small>Correo electrónico</small><a href="mailto:contacto@aequitasjuridica.com.co">contacto@aequitasjuridica.com.co</a></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.200 7-11.500A7 7 0 0 0 5 9.500C5 14.800 12 21 12 21Z"/><circle cx="12" cy="9.500" r="2.500"/></svg>
+        <div><small>Oficina (Atención con cita previa)</small><span>Calle 100 # 15-17, Bogotá, D.C.</span></div>
+      </li>
+    </ul>
+
+    <div class="bg-reveal bg-reveal--sm" aria-hidden="true"></div>
+    <footer class="page-foot"><b>Aequitas Jurídica</b><span>08 / 08</span></footer>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     BARRA DE HERRAMIENTAS FLOTANTE (solo pantalla; oculta al imprimir)
+     ============================================================ -->
+<div class="toolbar" role="toolbar" aria-label="Herramientas del catálogo">
+  <button class="tool tool--primary" id="btn-pdf" type="button" title="Descargar / Guardar como PDF">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>
+    <span><span class="long">Descargar / </span>Guardar como PDF</span>
+  </button>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
